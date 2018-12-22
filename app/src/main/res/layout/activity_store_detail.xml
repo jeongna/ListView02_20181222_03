@@ -8,6 +8,7 @@
     tools:context=".StoreDetailActivity">
 
     <ImageView
+        android:id="@+id/logoImg"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@mipmap/ic_launcher"/>
