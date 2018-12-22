@@ -1,6 +1,9 @@
 package kr.tjeit.listview02_20181222_03.datas;
 
-public class Store {
+import java.io.Serializable;
+
+public class Store implements Serializable {
+
 //    클래스 : 변수 + 메소드 (+생성자)의 조합
 
 //    필요한 변수들을 모두 private으로 생성
