@@ -2,8 +2,11 @@ package kr.tjeit.listview02_20181222_03;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 public class MainActivity extends BaseActivity {
+
+    ListView storeListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void bindViews() {
-
+        storeListView = findViewById(R.id.storeListView);
     }
 }
